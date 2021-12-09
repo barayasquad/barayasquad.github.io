@@ -1,0 +1,80 @@
+.slider h3,
+.slider h5 {
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.9);
+}
+
+.slider h3 {
+  font-size: 90px;
+}
+
+.slider h5 {
+  font-size: 40px;
+}
+
+
+
+
+
+.sejarah h3 {
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.9);
+}
+
+.sejarah p {
+  text-align: justify;
+}
+
+.parallax img {
+  filter: grayscale(1);
+  opacity: .5 !important;
+}
+
+.parallax-container {
+  height: 500px;
+}
+
+
+
+.anggota img {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+}
+
+.anggota .lebar {
+  display: inline-block;
+  width: inherit;
+}
+
+
+.anggota h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .brand-logo {
+    font-size: 20px !important;
+  }
+
+  .anggota .lebar {
+    display: inline-block;
+    width: 300px;
+  }
+
+  .slider h3 {
+    font-size: 30px;
+  }
+  
+  .slider h5 {
+    font-size: 20px;
+  }
+}
